@@ -1,5 +1,4 @@
 import logging
-
 from aiogram import Bot, Dispatcher, executor, types
 
 API_TOKEN = 'BOT TOKEN HERE'
