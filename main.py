@@ -1,5 +1,6 @@
 import logging
 from aiogram import Bot, Dispatcher, executor, types
+from middlewares import AccessMiddleware
 
 API_TOKEN = 'BOT TOKEN HERE'
 
