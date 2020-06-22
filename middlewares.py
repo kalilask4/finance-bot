@@ -11,5 +11,4 @@ class AccessMiddleware(BaseMiddleware):
     async def on_process_message(self, message: types.Message, _):
         if message.from_user.id != self.access_id:
             await message.answer("Access Denied")
-            raise CancelHandler()пше ыефегы
-            
+            raise CancelHandler()
